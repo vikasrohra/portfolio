@@ -15,7 +15,7 @@ module.exports = {
             {
                 id: 1,
                 title: "github",
-                path: "https://github.com/co-grammer",
+                path: "https://github.com/vikasrohra",
                 icon: "GitHub",
             },
             {
