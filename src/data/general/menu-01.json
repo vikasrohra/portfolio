@@ -1,0 +1,21 @@
+{
+    "id": "main-menu-1",
+    "section": "menu-1",
+    "menu": [
+        {
+            "id": 1,
+            "text": "Home",
+            "path": "home"
+        },
+        {
+            "id": 4,
+            "text": "Skills",
+            "path": "resume"
+        },
+        {
+            "id": 8,
+            "text": "Contact",
+            "path": "contacts"
+        }
+    ]
+}

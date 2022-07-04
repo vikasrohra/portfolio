@@ -1,0 +1,10 @@
+{
+    "id": "footer-data-1",
+    "section": "footer-1",
+    "copyright_text": " No copyright issues. Project code is open source. Feel free to fork and make your own version.",
+    "logo": [
+        {
+            "src": "../images/logo/footer-logo.png"
+        }
+    ]
+}
