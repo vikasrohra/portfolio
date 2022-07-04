@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: "https://www.yourdomain.tld",
+        siteUrl: "https://www.vikasrohra.com",
         // title: "Inbio - Personal Portfolio React Template",
         title: "Vikas Rohra",
         description: "Vikas Rohra",
