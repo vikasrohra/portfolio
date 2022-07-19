@@ -14,6 +14,7 @@ const PortfolioModal = ({
     category,
     path,
     texts,
+    github,
 }) => {
     return (
         <Modal
@@ -82,6 +83,10 @@ const PortfolioModal = ({
                                     <span>VIEW PROJECT</span>
                                     <ChevronRight />
                                 </Button>
+                                <Button path={github}>
+                                    <span>GitHub</span>
+                                    <ChevronRight />
+                                </Button>
                             </div>
                         </div>
                     </div>
@@ -99,6 +104,7 @@ PortfolioModal.propTypes = {
     category: PropTypes.string.isRequired,
     path: PropTypes.string.isRequired,
     texts: PropTypes.arrayOf(PropTypes.shape(TextType)),
+    github: PropTypes.string.isRequired,
 };
 
 export default PortfolioModal;

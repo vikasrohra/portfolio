@@ -25,6 +25,7 @@ export const SocialType = {
     id: IDType,
     icon: PropTypes.string,
     path: PropTypes.string,
+    github: PropTypes.string,
     title: PropTypes.string,
 };
 
@@ -41,6 +42,7 @@ export const ItemType = {
     description: PropTypes.string,
     icon: PropTypes.string,
     path: PropTypes.string,
+    github: PropTypes.string,
     images: PropTypes.arrayOf(PropTypes.shape(ImageType)),
     rating: PropTypes.string,
 };
@@ -64,6 +66,7 @@ export const MenuType = {
     id: IDType,
     text: PropTypes.string.isRequired,
     path: PropTypes.string.isRequired,
+    github: PropTypes.string,
     icon: PropTypes.string,
 };
 
@@ -71,6 +74,7 @@ export const ButtonType = {
     id: IDType,
     content: PropTypes.string,
     path: PropTypes.string,
+    github: PropTypes.string,
 };
 
 export const BlogType = {

@@ -8,9 +8,21 @@
             "path": "home"
         },
         {
+            "id": 3,
+            "text": "Projects",
+            "path": "portfolio",
+            "icon": "Layers"
+        },
+        {
             "id": 4,
             "text": "Skills",
             "path": "resume"
+        },
+        {
+            "id": 5,
+            "text": "Awesome Projects",
+            "path": "clients",
+            "icon": "User"
         },
         {
             "id": 8,

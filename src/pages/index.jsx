@@ -21,7 +21,7 @@ import InterviewArea from "@containers/interview/layout-01";
 
 const IndexPage = ({ data }) => {
     const content = normalizedData(data?.homePage?.content || []);
-
+    console.log("content", content);
     return (
         <Layout pageTitle="Home Default" className="white-version">
             <Header
@@ -38,18 +38,18 @@ const IndexPage = ({ data }) => {
                         socials: data.site.siteMetadata.socials,
                     }}
                 />
-                {/* <ServicesArea data={content["service-section"]} />
-                <PortfolioArea data={content["portfolio-section"]} /> */}
+                {/* <ServicesArea data={content["service-section"]} /> */}
+                <PortfolioArea data={content["portfolio-section"]} />
                 <ResumeArea data={content["resume-section"]}>
                     <SkillArea data={content["skill-section"]} />
                     <SkillArea data={content["skill-section-soft"]} />
-                    {/* <EducationArea data={content["education-section"]} /> */}
-                    {/* <ExperienceArea data={content["experience-section"]} /> */}
-                    {/* <InterviewArea data={content["interview-section"]} /> */}
+                    {/* <EducationArea data={content["education-section"]} />
+                    <ExperienceArea data={content["experience-section"]} />
+                    <InterviewArea data={content["interview-section"]} /> */}
                 </ResumeArea>
-                {/* <TestimonialArea data={content["testimonial-section"]} />
+                {/* <TestimonialArea data={content["testimonial-section"]} /> */}
                 <ClientArea data={content["client-section"]} />
-                <PricingArea data={content["pricing-section"]} />
+                {/* <PricingArea data={content["pricing-section"]} />
                 <BlogArea
                     data={{
                         ...content["blog-section"],
