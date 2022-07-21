@@ -559,6 +559,16 @@
                                     "src": "../images/client/png/2.png"
                                 }
                             ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Design 3",
+                            "path": "https://html-css-designs.netlify.app/designs/design3.html",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/3.png"
+                                }
+                            ]
                         }
                     ]
                 },
