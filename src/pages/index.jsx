@@ -49,8 +49,8 @@ const IndexPage = ({ data }) => {
                 </ResumeArea>
                 {/* <TestimonialArea data={content["testimonial-section"]} /> */}
                 <ClientArea data={content["client-section"]} />
-                {/* <PricingArea data={content["pricing-section"]} />
-                <BlogArea
+                {/* <PricingArea data={content["pricing-section"]} /> */}
+                {/* <BlogArea
                     data={{
                         ...content["blog-section"],
                         blogs: data?.allArticle?.nodes,
