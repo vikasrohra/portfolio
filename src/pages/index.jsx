@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => {
                     }}
                 />
                 {/* <ServicesArea data={content["service-section"]} /> */}
-                <PortfolioArea data={content["portfolio-section"]} />
+                {/* <PortfolioArea data={content["portfolio-section"]} /> */}
                 <ResumeArea data={content["resume-section"]}>
                     <SkillArea data={content["skill-section"]} />
                     <SkillArea data={content["skill-section-soft"]} />

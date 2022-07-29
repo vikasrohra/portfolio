@@ -8,12 +8,6 @@
             "path": "home"
         },
         {
-            "id": 3,
-            "text": "Projects",
-            "path": "portfolio",
-            "icon": "Layers"
-        },
-        {
             "id": 4,
             "text": "Skills",
             "path": "resume"

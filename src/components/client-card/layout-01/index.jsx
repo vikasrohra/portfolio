@@ -9,7 +9,7 @@ const ClientCard = ({ image, name, path, ...rest }) => {
             <div className="inner text-center">
                 {image?.src && (
                     <div className="thumbnail">
-                        <a href={path}>
+                        <a href={path} target="_blank" rel="noreferrer">
                             <Image src={image.src} alt={image?.alt || name} />
                         </a>
                     </div>
@@ -17,7 +17,9 @@ const ClientCard = ({ image, name, path, ...rest }) => {
                 <div className="seperator"></div>
                 <div className="client-name">
                     <span>
-                        <a href={path}>{name}</a>
+                        <a href={path} target="_blank" rel="noreferrer">
+                            {name}
+                        </a>
                     </span>
                 </div>
             </div>
