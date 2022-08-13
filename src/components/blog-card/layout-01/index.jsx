@@ -53,7 +53,7 @@ const BlogCard = ({
                     </div>
                 </div>
             </div>
-            <BlogModal
+            {/* <BlogModal
                 show={show}
                 setShow={setShow}
                 title={title}
@@ -62,7 +62,7 @@ const BlogCard = ({
                 content={content}
                 slug={slug}
                 id={id}
-            />
+            /> */}
         </>
     );
 };

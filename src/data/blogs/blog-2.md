@@ -1,20 +1,62 @@
 ---
-title: The services provide for design
-date: 2021-15-02 11:10:00
-category: development
+title: Adding Local Code To GitHub
+date: July 24, 2022
+category: Miscellaneous
 image: {
-	src: "../images/blog/blog-02.jpg"
+	src: "../images/blog/Gzd972QEJ.jpg",
+   url: "https://vikasrohra.hashnode.dev/a-quick-guide-to-markdown"
 }
 ---
 
-Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+# Follow below steps to add your local source code to GitHub repository
 
-#### Nobis eleifend option conguenes.
+1. First you need to install [Git](https://git-scm.com/) on your system. It is very simple and you need to proceed with default settings and click on next to install.
+2. In the command line, navigate to the root directory of your project.
+3. Initialize the local directory as a Git repository.
 
-Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id.
+```
+$ git init
+```
 
-Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.
+4. Add the files in your new local repository. This stages them for the first commit.
 
-#### Mauris tempor, orci id pellentesque.
+```
+$ git add .
+# To unstage a file, use 'git reset HEAD YOUR-FILE'.
+```
 
-Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.
+5. Commit the files that you've staged in your local repository.
+
+```
+$ git commit -m "First commit"
+# To remove this commit and modify the file, use 'git reset --soft HEAD~1' and add and commit the file again.
+```
+
+6. Go to [GitHub](https://github.com), sign up if you are a new user or sign in if already have an account.
+7. Create a repository on GitHub.
+   ![Add repository image](https://cdn.hashnode.com/res/hashnode/image/upload/v1658604291489/919kefMRp.png align="center")
+8. Give a suitable name to your repository and click on create repository with default settings.
+   ![Create repository page image](https://cdn.hashnode.com/res/hashnode/image/upload/v1658605254526/Xs6QN8lfB.png align="center")
+9. Now again open the command line make sure you are still in the root directory of your project. Create the master branch.
+
+```
+$ git branch -M master
+# This branch will be created on the remote repository on GitHub.
+```
+
+10. At the top of your repository on GitHub's Quick Setup page, click to copy the remote repository URL.
+    ![Remote repository URL image](https://cdn.hashnode.com/res/hashnode/image/upload/v1658605866305/9Bjl4Yr1w.png align="left")
+11. Connect local repository with remote repository.
+
+```
+$ git remote add origin 'your-repository-name'
+```
+
+12. Now finally push your code to remote repository.
+
+```
+$ git push -u origin master
+# -u is used for the first push. For all the subsequent pushes you can run 'git push origin master'
+```
+
+That's it. Now invite others to work with you!
