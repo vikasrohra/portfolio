@@ -6,15 +6,7 @@ import Anchor from "@ui/anchor";
 import Icon from "@ui/icon";
 import PortfolioModal from "@components/modal-portfolio";
 
-const PortfolioCard = ({
-    title,
-    category,
-    likeCount,
-    image,
-    path,
-    texts,
-    github,
-}) => {
+const PortfolioCard = ({ title, category, likeCount, image, path, texts }) => {
     const [show, setShow] = useState(false);
     return (
         <>
@@ -27,14 +19,16 @@ const PortfolioCard = ({
             >
                 <div className="inner">
                     <div className="thumbnail">
-                        <Anchor path={path}>
+                        <Anchor path={path && path.split("~")[0]}>
                             <Image src={image.src} alt={image?.alt || title} />
                         </Anchor>
                     </div>
                     <div className="content">
                         <div className="category-info">
                             <div className="category-list">
-                                <Anchor path={path}>{category}</Anchor>
+                                <Anchor path={path && path.split("~")[0]}>
+                                    {category}
+                                </Anchor>
                             </div>
                             <div className="meta">
                                 <span>
@@ -50,7 +44,7 @@ const PortfolioCard = ({
                             </div>
                         </div>
                         <h4 className="title">
-                            <Anchor path={path}>
+                            <Anchor path={path && path.split("~")[0]}>
                                 {title}
                                 <Icon name="ArrowUpRight" />
                             </Anchor>
@@ -66,7 +60,6 @@ const PortfolioCard = ({
                 image={image}
                 texts={texts}
                 path={path}
-                github={github}
             />
         </>
     );
@@ -79,7 +72,6 @@ PortfolioCard.propTypes = {
     image: PropTypes.shape(ImageType).isRequired,
     path: PropTypes.string.isRequired,
     texts: PropTypes.arrayOf(PropTypes.shape(TextType)),
-    github: PropTypes.string.isRequired,
 };
 
 export default PortfolioCard;

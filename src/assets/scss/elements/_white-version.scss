@@ -1506,15 +1506,11 @@ body.white-version {
             }
 
             .inner {
-                background: var(--gradient-box-w);
-                box-shadow: var(--shadow-white-3);
-
                 &::after {
                     background: none;
                 }
 
                 &:hover {
-                    background: var(--gradient-box-w);
                 }
             }
         }

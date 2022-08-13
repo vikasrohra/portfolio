@@ -14,7 +14,6 @@ const PortfolioModal = ({
     category,
     path,
     texts,
-    github,
 }) => {
     return (
         <Modal
@@ -75,15 +74,18 @@ const PortfolioModal = ({
                                 </p>
                             ))}
                             <div className="button-group mt--20">
-                                <Button path={path} className="thumbs-icon">
+                                <Button
+                                    path={path && path.split("~")[0]}
+                                    className="thumbs-icon"
+                                >
                                     <span>LIKE THIS</span>
                                     <ThumbsUp />
                                 </Button>
-                                <Button path={path}>
+                                <Button path={path && path.split("~")[0]}>
                                     <span>VIEW PROJECT</span>
                                     <ChevronRight />
                                 </Button>
-                                <Button path={github}>
+                                <Button path={path && path.split("~")[1]}>
                                     <span>GitHub</span>
                                     <ChevronRight />
                                 </Button>
@@ -104,7 +106,6 @@ PortfolioModal.propTypes = {
     category: PropTypes.string.isRequired,
     path: PropTypes.string.isRequired,
     texts: PropTypes.arrayOf(PropTypes.shape(TextType)),
-    github: PropTypes.string.isRequired,
 };
 
 export default PortfolioModal;

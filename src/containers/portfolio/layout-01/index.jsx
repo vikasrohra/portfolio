@@ -35,7 +35,6 @@ const PortfolioArea = ({ data, id }) => {
                                 title={item.title}
                                 category={item.category}
                                 path={item.path}
-                                gitHubPath={item.gitHubPath}
                                 likeCount={item.likeCount}
                                 image={item.images?.[0]}
                                 texts={item.texts}

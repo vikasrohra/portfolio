@@ -6,8 +6,10 @@ import TabContainer from "react-bootstrap/TabContainer";
 import TabPane from "react-bootstrap/TabPane";
 import Nav from "react-bootstrap/Nav";
 import Sticky from "@ui/sticky";
-import ClientCard from "@components/client-card/layout-01";
+// import ClientCard from "@components/client-card/layout-01";
+import PortfolioCard from "@components/portfolio-card/layout-01";
 import { SectionTitleType, InnerType } from "@utils/types";
+import { useEffect } from "react";
 
 const ClientArea = ({ data, id }) => {
     return (
@@ -63,21 +65,50 @@ const ClientArea = ({ data, id }) => {
                                                     <div className="client-card">
                                                         {client?.items?.map(
                                                             (item) => (
-                                                                <ClientCard
+                                                                // <ClientCard
+                                                                //     key={
+                                                                //         item.id
+                                                                //     }
+                                                                //     image={
+                                                                //         item
+                                                                //             .images?.[0]
+                                                                //     }
+                                                                //     name={
+                                                                //         item.title
+                                                                //     }
+                                                                //     path={
+                                                                //         item.path
+                                                                //     }
+                                                                // />
+                                                                <div
                                                                     key={
                                                                         item.id
                                                                     }
-                                                                    image={
-                                                                        item
-                                                                            .images?.[0]
-                                                                    }
-                                                                    name={
-                                                                        item.title
-                                                                    }
-                                                                    path={
-                                                                        item.path
-                                                                    }
-                                                                />
+                                                                    data-aos="fade-up"
+                                                                    data-aos-delay="100"
+                                                                    data-aos-once="true"
+                                                                    className="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30"
+                                                                >
+                                                                    <PortfolioCard
+                                                                        title={
+                                                                            item.title
+                                                                        }
+                                                                        category={
+                                                                            client.inner_title
+                                                                        }
+                                                                        path={
+                                                                            item.path
+                                                                        }
+                                                                        likeCount={
+                                                                            0
+                                                                        }
+                                                                        image={
+                                                                            item
+                                                                                .images?.[0]
+                                                                        }
+                                                                        texts={[]}
+                                                                    />
+                                                                </div>
                                                             )
                                                         )}
                                                     </div>

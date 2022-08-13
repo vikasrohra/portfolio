@@ -128,8 +128,7 @@
                             "src": "../images/portfolio/html-css-designs.png"
                         }
                     ],
-                    "path": "https://html-css-designs.netlify.app/",
-                    "github": "#!",
+                    "path": "https://html-css-designs.netlify.app/~https://github.com/vikasrohra/portfolio",
                     "likeCount": 600
                 }
             ]
@@ -543,7 +542,7 @@
                         {
                             "id": 1,
                             "title": "Street Style Landing Page",
-                            "path": "https://streat-style-landing-page.netlify.app/",
+                            "path": "https://streat-style-landing-page.netlify.app/~https://github.com/vikasrohra/Street-Style-Landing-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Street Style Landing Page.png"
@@ -553,7 +552,7 @@
                         {
                             "id": 2,
                             "title": "Food Restaurant Home Page",
-                            "path": "https://food-restaurant-home.netlify.app/",
+                            "path": "https://food-restaurant-home.netlify.app/~https://github.com/vikasrohra/Food-Restaurant-Home-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Food Restaurant Home Page.png"
@@ -563,7 +562,7 @@
                         {
                             "id": 3,
                             "title": "Law Home Page",
-                            "path": "https://law-dashboard.netlify.app/",
+                            "path": "https://law-dashboard.netlify.app/~https://github.com/vikasrohra/Law-Home-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Law Home Page.png"
@@ -573,7 +572,7 @@
                         {
                             "id": 4,
                             "title": "Digital Marketing Homepage",
-                            "path": "https://digital-marketing-home.netlify.app/",
+                            "path": "https://digital-marketing-home.netlify.app/~https://github.com/vikasrohra/Digital-Marketing-Homepage",
                             "images": [
                                 {
                                     "src": "../images/client/png/Digital Marketing Homepage.png"
@@ -583,7 +582,7 @@
                         {
                             "id": 5,
                             "title": "Crypto Landing page",
-                            "path": "https://crypto-home-page.netlify.app/",
+                            "path": "https://crypto-home-page.netlify.app/~https://github.com/vikasrohra/Crypto-Landing-page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Crypto Landing page.png"
@@ -593,7 +592,7 @@
                         {
                             "id": 6,
                             "title": "Plant Home Page",
-                            "path": "https://plant-landing.netlify.app/",
+                            "path": "https://plant-landing.netlify.app/~https://github.com/vikasrohra/Plant-Home-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Plant HomePage.png"
@@ -603,7 +602,7 @@
                         {
                             "id": 7,
                             "title": "Product Home Page",
-                            "path": "https://product-design-home.netlify.app/",
+                            "path": "https://product-design-home.netlify.app/~https://github.com/vikasrohra/Product-Home-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Product HomePage.png"
@@ -613,7 +612,7 @@
                         {
                             "id": 8,
                             "title": "Web Design Landing Page",
-                            "path": "https://web-design-page.netlify.app/",
+                            "path": "https://web-design-page.netlify.app/~https://github.com/vikasrohra/Web-Design-Landing-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/web design landing page.png"
@@ -623,7 +622,7 @@
                         {
                             "id": 9,
                             "title": "Developer Landing page",
-                            "path": "https://developer-home-page.netlify.app/",
+                            "path": "https://developer-home-page.netlify.app/~https://github.com/vikasrohra/Developer-Landing-page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Developer Landingpage.png"
@@ -633,7 +632,7 @@
                         {
                             "id": 10,
                             "title": "Interior Design landing page",
-                            "path": "https://interior-design-home-page.netlify.app/",
+                            "path": "https://interior-design-home-page.netlify.app/~https://github.com/vikasrohra/Interior-Design-landing-page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Interior Design landing page.png"
@@ -643,7 +642,7 @@
                         {
                             "id": 11,
                             "title": "Hosting Landing Page",
-                            "path": "https://hosting-home-page.netlify.app/",
+                            "path": "https://hosting-home-page.netlify.app/~https://github.com/vikasrohra/Hosting-Landing-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Hosting Landing Page.png"
@@ -653,7 +652,7 @@
                         {
                             "id": 12,
                             "title": "Business Landing Page",
-                            "path": "https://business-home-page.netlify.app/",
+                            "path": "https://business-home-page.netlify.app/~https://github.com/vikasrohra/Business-Landing-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Business Landing Page.png"
@@ -663,7 +662,7 @@
                         {
                             "id": 13,
                             "title": "SAAS Landing Page",
-                            "path": "https://saas-web-page.netlify.app/",
+                            "path": "https://saas-web-page.netlify.app/~https://github.com/vikasrohra/SAAS-Landing-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/SAAS landing page.png"
@@ -673,7 +672,7 @@
                         {
                             "id": 14,
                             "title": "Dance Landing Page",
-                            "path": "https://dance-web-page.netlify.app/",
+                            "path": "https://dance-web-page.netlify.app/~https://github.com/vikasrohra/Dance-Home-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Dance Home Page.png"
@@ -683,7 +682,7 @@
                         {
                             "id": 15,
                             "title": "Product Design Landing Page",
-                            "path": "https://product-designer-landing-page.netlify.app/",
+                            "path": "https://product-designer-landing-page.netlify.app/~https://github.com/vikasrohra/Product-Design-Landing-Page",
                             "images": [
                                 {
                                     "src": "../images/client/png/Product Design LandingPage.png"
