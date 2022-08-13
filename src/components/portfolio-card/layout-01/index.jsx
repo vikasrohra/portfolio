@@ -19,16 +19,14 @@ const PortfolioCard = ({ title, category, likeCount, image, path, texts }) => {
             >
                 <div className="inner">
                     <div className="thumbnail">
-                        <Anchor path={path && path.split("~")[0]}>
+                        <div>
                             <Image src={image.src} alt={image?.alt || title} />
-                        </Anchor>
+                        </div>
                     </div>
                     <div className="content">
                         <div className="category-info">
                             <div className="category-list">
-                                <Anchor path={path && path.split("~")[0]}>
-                                    {category}
-                                </Anchor>
+                                <div>{category}</div>
                             </div>
                             <div className="meta">
                                 <span>
@@ -44,10 +42,10 @@ const PortfolioCard = ({ title, category, likeCount, image, path, texts }) => {
                             </div>
                         </div>
                         <h4 className="title">
-                            <Anchor path={path && path.split("~")[0]}>
+                            <a href="#">
                                 {title}
                                 <Icon name="ArrowUpRight" />
-                            </Anchor>
+                            </a>
                         </h4>
                     </div>
                 </div>
