@@ -22,7 +22,7 @@ import InterviewArea from "@containers/interview/layout-01";
 const IndexPage = ({ data }) => {
     const content = normalizedData(data?.homePage?.content || []);
     return (
-        <Layout pageTitle="Home Default" className="white-version">
+        <Layout pageTitle="Home" className="white-version">
             <Header
                 data={{
                     ...data.header,
