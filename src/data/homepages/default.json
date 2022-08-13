@@ -537,7 +537,7 @@
             },
             "inner": [
                 {
-                    "id": "clinet-js",
+                    "id": "clinet-html",
                     "inner_title": "HTML/CSS",
                     "items": [
                         {
@@ -659,12 +659,42 @@
                                     "src": "../images/client/png/Business Landing Page.png"
                                 }
                             ]
+                        },
+                        {
+                            "id": 13,
+                            "title": "SAAS Landing Page",
+                            "path": "https://saas-web-page.netlify.app/",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/SAAS landing page.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 14,
+                            "title": "Dance Landing Page",
+                            "path": "https://dance-web-page.netlify.app/",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/Dance Home Page.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15,
+                            "title": "Product Design Landing Page",
+                            "path": "https://product-designer-landing-page.netlify.app/",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/Product Design LandingPage.png"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "id": "clinet-design",
-                    "inner_title": "React JS",
+                    "id": "clinet-tailwind",
+                    "inner_title": "Tailwind CSS",
                     "items": []
                 }
             ]
