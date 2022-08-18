@@ -65,8 +65,8 @@ const ContactForm = ({ className, url }) => {
                     data-netlify="true"
                     className="rnt-contact-form rwt-dynamic-form row"
                     // id="contact-form"
-                    // onSubmit={handleSubmit(onSubmit)}
-                    onSubmit="submit"
+                    onSubmit={handleSubmit(onSubmit)}
+                    // onSubmit="submit"
                 >
                     <input
                         type="hidden"
