@@ -64,6 +64,7 @@ const ContactForm = ({ className, url }) => {
                     onSubmit={handleSubmit(onSubmit)}
                     method="POST"
                     data-netlify="true"
+                    netlify-honeypot="bot-field"
                     name="contact"
                 >
                     <input
@@ -71,6 +72,12 @@ const ContactForm = ({ className, url }) => {
                         name="subject"
                         value="Someone left a message for you on vikasrohra.com"
                     />
+                    <p class="hidden">
+                        <label>
+                            Don’t fill this out if you’re human:{" "}
+                            <input name="bot-field" />
+                        </label>
+                    </p>
                     <div className="col-lg-6">
                         <FormGroup>
                             <Label htmlFor="name">Your Name</Label>
