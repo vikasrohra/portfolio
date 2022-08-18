@@ -694,7 +694,18 @@
                 {
                     "id": "clinet-tailwind",
                     "inner_title": "Tailwind CSS",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "title": "Paytm Clone",
+                            "path": "https://paytm-clone-vk.netlify.app/~https://github.com/vikasrohra/paytm-clone",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/paytm-clone.png"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
