@@ -46,7 +46,7 @@ const ContactForm = ({ className, url }) => {
         //         console.log();
         handleServerResponse(
             true,
-            "Thanks! for dropping a message, now it's my turn to reply.",
+            "Thanks! for dropping a message, wait for my turn to reply.",
             form
         );
         // })
