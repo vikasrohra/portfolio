@@ -73,12 +73,7 @@ const ContactForm = ({ className, url }) => {
                         name="subject"
                         value="Someone left a message for you on vikasrohra.com"
                     />
-                    <p class="hidden">
-                        <label>
-                            Don’t fill this out if you’re human:{" "}
-                            <input name="bot-field" />
-                        </label>
-                    </p>
+                    <input name="bot-field" type="hidden" />
                     <div className="col-lg-6">
                         <FormGroup>
                             <Label htmlFor="name">Your Name</Label>
