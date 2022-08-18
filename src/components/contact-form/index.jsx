@@ -59,13 +59,14 @@ const ContactForm = ({ className, url }) => {
         <div className={cn("contact-form-wrapper", className)}>
             <div className="introduce">
                 <form
+                    name="contact"
+                    method="POST"
+                    netlify-honeypot="bot-field"
+                    data-netlify="true"
                     className="rnt-contact-form rwt-dynamic-form row"
                     id="contact-form"
-                    onSubmit={handleSubmit(onSubmit)}
-                    method="POST"
-                    data-netlify="true"
-                    netlify-honeypot="bot-field"
-                    name="contact"
+                    // onSubmit={handleSubmit(onSubmit)}
+                    onSubmit="submit"
                 >
                     <input
                         type="hidden"
