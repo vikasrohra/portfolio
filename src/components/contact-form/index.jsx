@@ -64,7 +64,6 @@ const ContactForm = ({ className, url }) => {
                     netlify-honeypot="bot-field"
                     data-netlify="true"
                     className="rnt-contact-form rwt-dynamic-form row"
-                    id="contact-form"
                     // onSubmit={handleSubmit(onSubmit)}
                     onSubmit="submit"
                 >
