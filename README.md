@@ -18,7 +18,11 @@ Hi, I'm `Vikas Rohra`, a web developer living in Mumbai, India.
 ## Connect with me
 
 [GitHub](https://github.com/vikasrohra)
+
 [Instagram](https://www.instagram.com/imvikasrohra/)
+
 [LinkedIn](https://in.linkedin.com/in/vikas-rohra-1a94a054)
+
 [YouTube](https://www.youtube.com/channel/UCNRDbYxL0A1KFQwt9X0PgSQ)
+
 [FindCoder](https://www.findcoder.io/u/vikasrohra)
