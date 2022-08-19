@@ -36,29 +36,44 @@ const ContactForm = ({ className, url }) => {
     };
     const onSubmit = (data, e) => {
         const form = e.target;
-        setServerState({ submitting: true });
-        axios({
-            method: "post",
-            url: url,
-            data,
-        })
-            .then((res) => {
-                console.log();
-                handleServerResponse(true, "Thanks! for being with us", form);
-            })
-            .catch((err) => {
-                handleServerResponse(false, err.response.data.error, form);
-            });
+        // setServerState({ submitting: true });
+        // axios({
+        //     method: "post",
+        //     url: url,
+        //     data,
+        // })
+        //     .then((res) => {
+        //         console.log();
+        handleServerResponse(
+            true,
+            "Thanks! for dropping a message, wait for my turn to reply.",
+            form
+        );
+        // })
+        // .catch((err) => {
+        //     handleServerResponse(false, err.response.data.error, form);
+        // });
     };
 
     return (
         <div className={cn("contact-form-wrapper", className)}>
             <div className="introduce">
                 <form
+                    name="contact"
+                    method="POST"
+                    netlify-honeypot="bot-field"
+                    data-netlify="true"
                     className="rnt-contact-form rwt-dynamic-form row"
-                    id="contact-form"
+                    // id="contact-form"
                     onSubmit={handleSubmit(onSubmit)}
+                    // onSubmit="submit"
                 >
+                    <input
+                        type="hidden"
+                        name="subject"
+                        value="Someone left a message for you on vikasrohra.com"
+                    />
+                    <input name="bot-field" type="hidden" />
                     <div className="col-lg-6">
                         <FormGroup>
                             <Label htmlFor="name">Your Name</Label>
