@@ -704,6 +704,26 @@
                                     "src": "../images/client/png/paytm-clone.png"
                                 }
                             ]
+                        },
+                        {
+                            "id": 1,
+                            "title": "Rode Clone",
+                            "path": "https://rode-dot-com.netlify.app/~https://github.com/vikasrohra/rode-dot-com-clone",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/rode-clone.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1,
+                            "title": "Shopify Clone",
+                            "path": "https://shopify-clone-vk.netlify.app/~https://github.com/vikasrohra/shopify-clone",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/shopify-clone.png"
+                                }
+                            ]
                         }
                     ]
                 }
