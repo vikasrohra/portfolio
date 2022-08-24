@@ -1,4 +1,4 @@
-# Hosting Landing Page
+# Portfolio Website
 
 ## Who am I?
 Hi, I'm `Vikas Rohra`, a web developer living in Mumbai, India.
@@ -7,8 +7,9 @@ Hi, I'm `Vikas Rohra`, a web developer living in Mumbai, India.
 
 ## About this project
  - This project is a portfolio website where you can have a look at my skills, projects and social links to connect.
-
-
+ - Fully Responsive
+ - Dynamic Nav Links highlight on scroll based on the current section
+ - Direct Message feature
 
 <br />
 
