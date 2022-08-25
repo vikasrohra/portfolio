@@ -706,7 +706,7 @@
                             ]
                         },
                         {
-                            "id": 1,
+                            "id": 2,
                             "title": "Rode Clone",
                             "path": "https://rode-dot-com.netlify.app/~https://github.com/vikasrohra/rode-dot-com-clone",
                             "images": [
@@ -716,12 +716,22 @@
                             ]
                         },
                         {
-                            "id": 1,
+                            "id": 3,
                             "title": "Shopify Clone",
                             "path": "https://shopify-clone-vk.netlify.app/~https://github.com/vikasrohra/shopify-clone",
                             "images": [
                                 {
                                     "src": "../images/client/png/shopify-clone.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "title": "Pensil-community-landing-page",
+                            "path": "https://pensil-community-landing-page.netlify.app/~https://github.com/vikasrohra/pensil",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/Pensil-community-landing-page.png"
                                 }
                             ]
                         }
