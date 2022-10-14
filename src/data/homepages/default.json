@@ -15,7 +15,7 @@
             "animated_texts": ["Web Developer", "Professional Coder"],
             "texts": [
                 {
-                    "content": "Hi I am Vikas Rohra, a 28 years old Web developer living in Mumbai, India, having 6+ years of professional experience into web development. I am always excited to connect with like minded people. Have a look at my skills or you can get in touch with me on any social media platform."
+                    "content": "Hi I am Vikas Rohra, a Web developer living in Mumbai, India, having 6+ years of professional experience into web development. I am always excited to connect with like minded people. Have a look at my skills or you can get in touch with me on any social media platform."
                 }
             ],
             "skills": [
@@ -536,6 +536,68 @@
             },
             "inner": [
                 {
+                    "id": "clinet-react",
+                    "inner_title": "React",
+                    "items": [
+                        {
+                            "id": 1,
+                            "title": "SmartCabs",
+                            "path": "https://smart-cabs.netlify.app/~https://github.com/vikasrohra/smart-cabs",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/smart-cabs.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Communion",
+                            "path": "https://communion-community.netlify.app/~https://github.com/vikasrohra/community",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/communion.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "clinet-tailwind",
+                    "inner_title": "Tailwind CSS",
+                    "items": [
+                        {
+                            "id": 1,
+                            "title": "Paytm Clone",
+                            "path": "https://paytm-clone-vk.netlify.app/~https://github.com/vikasrohra/paytm-clone",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/paytm-clone.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Shopify Clone",
+                            "path": "https://shopify-clone-vk.netlify.app/~https://github.com/vikasrohra/shopify-clone",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/shopify.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Rode Clone",
+                            "path": "https://rode-dot-com.netlify.app/~https://github.com/vikasrohra/rode-dot-com-clone",
+                            "images": [
+                                {
+                                    "src": "../images/client/png/rode.png"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "id": "clinet-html",
                     "inner_title": "HTML/CSS",
                     "items": [
@@ -686,22 +748,6 @@
                             "images": [
                                 {
                                     "src": "../images/client/png/Product Design LandingPage.png"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "clinet-tailwind",
-                    "inner_title": "Tailwind CSS",
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "Paytm Clone",
-                            "path": "https://paytm-clone-vk.netlify.app/~https://github.com/vikasrohra/paytm-clone",
-                            "images": [
-                                {
-                                    "src": "../images/client/png/paytm-clone.png"
                                 }
                             ]
                         }
