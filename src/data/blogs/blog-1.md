@@ -1,5 +1,5 @@
 ---
-title: React Thinking
+title: React Thinking,https://vikasrohra.hashnode.dev/react-thinking
 date: October 13, 2022
 category: React
 image:

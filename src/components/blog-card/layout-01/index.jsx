@@ -27,14 +27,17 @@ const BlogCard = ({
             >
                 <div className="inner">
                     <div className="thumbnail">
-                        <a href="#!">
-                            <Image src={image.src} alt={image.alt || title} />
+                        <a href={title.split(",")[1]}>
+                            <Image
+                                src={image.src}
+                                alt={image.alt || title.split(",")[0]}
+                            />
                         </a>
                     </div>
                     <div className="content">
                         <div className="category-info">
                             <div className="category-list">
-                                <a href="#!">{category}</a>
+                                <a href={title.split(",")[1]}>{category}</a>
                             </div>
                             <div className="meta">
                                 {readingTime && (
@@ -45,8 +48,8 @@ const BlogCard = ({
                             </div>
                         </div>
                         <h4 className="title">
-                            <a href="#!">
-                                {title}
+                            <a href={title.split(",")[1]}>
+                                {title.split(",")[0]}
                                 <ArrowUpRight />
                             </a>
                         </h4>

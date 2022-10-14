@@ -8,7 +8,7 @@ module.exports = {
         siteLanguage: "en",
         image: "banner.jpg",
         titleTemplate: "VR",
-        twitterUsername: "@rainbowit",
+        twitterUsername: "@vik_roh",
         getform_url:
             "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
         socials: [
@@ -105,7 +105,7 @@ module.exports = {
                 display: "standalone",
                 scope: "/",
                 start_url: "/",
-                icon: "src/assets/images/favicon.png",
+                icon: "src/assets/images/footer-logo.webp",
             },
         },
     ],

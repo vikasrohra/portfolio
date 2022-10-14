@@ -1,10 +1,10 @@
 ---
-title: Adding Local Code To GitHub
+title: Adding Local Code To GitHub,https://vikasrohra.hashnode.dev/adding-local-code-to-github
 date: July 24, 2022
 category: Miscellaneous
 image: {
 	src: "../images/blog/Gzd972QEJ.jpg",
-   url: "https://vikasrohra.hashnode.dev/a-quick-guide-to-markdown"
+   url: "https://vikasrohra.hashnode.dev/adding-local-code-to-github"
 }
 ---
 
