@@ -1,11 +1,12 @@
 ---
-title: A Quick Guide To Markdown
-date: July 23, 2022
-category: Miscellaneous
-image: {
-	src: "../images/blog/3wmrhpo9v.jpg",
-  url: "https://vikasrohra.hashnode.dev/a-quick-guide-to-markdown"
-}
+title: React Thinking
+date: October 13, 2022
+category: React
+image:
+    {
+        src: "../images/blog/react-thinking.png",
+        url: "https://vikasrohra.hashnode.dev/react-thinking",
+    }
 ---
 
 # What is Markdown?
