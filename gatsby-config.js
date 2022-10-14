@@ -105,7 +105,7 @@ module.exports = {
                 display: "standalone",
                 scope: "/",
                 start_url: "/",
-                icon: "src/assets/images/footer-logo.webp",
+                icon: "src/assets/images/logo.png",
             },
         },
     ],
