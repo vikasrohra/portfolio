@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import Typed from "react-typed";
 import Social, { SocialLink } from "@ui/social";
@@ -14,6 +14,61 @@ import {
 } from "@utils/types";
 
 const HeroArea = ({ data, id }) => {
+    const [specialEvent, setSpecialEvent] = useState("");
+
+    useEffect(() => {
+        getSpecialEvent();
+    }, []);
+
+    const getSpecialEvent = () => {
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 1, 2024 12:01:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor(
+                (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            var minutes = Math.floor(
+                (distance % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            // If the count down is over, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                setSpecialEvent("EXPIRED");
+            }
+
+            //Month difference
+            var dateFrom = new Date();
+            var dateTo = new Date("Jan 1, 2024 12:01:00");
+            var months =
+                dateTo.getMonth() -
+                dateFrom.getMonth() +
+                12 * (dateTo.getFullYear() - dateFrom.getFullYear());
+
+            // Output the result in an element
+            setSpecialEvent(
+                days +
+                    " days, " +
+                    hours +
+                    " hours, " +
+                    minutes +
+                    " minutes, " +
+                    seconds +
+                    " seconds "
+            );
+        }, 1000);
+    };
+
     return (
         <div id={id} className="rn-slider-area">
             <div className="slide slider-style-1">
@@ -22,12 +77,36 @@ const HeroArea = ({ data, id }) => {
                         <div className="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
                             <div className="content">
                                 <div className="inner">
-                                    {data?.headings?.[0] && (
+                                    {/* {data?.headings?.[0] && (
                                         <span className="subtitle">
                                             {data.headings[0].content}
                                         </span>
-                                    )}
-
+                                    )} */}
+                                    {
+                                        <div style={{ marginBottom: "20px" }}>
+                                            <span
+                                                className="subtitle"
+                                                style={{ marginBottom: "5px" }}
+                                            >
+                                                Special event in,
+                                            </span>
+                                            <span
+                                                // className="subtitle"
+                                                style={{
+                                                    color: "#ffffff",
+                                                    fontFamily: "Cursive",
+                                                    background:
+                                                        "linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44)",
+                                                    WebkitBackgroundClip:
+                                                        "text",
+                                                    WebkitTextFillColor:
+                                                        "transparent",
+                                                }}
+                                            >
+                                                {specialEvent}
+                                            </span>
+                                        </div>
+                                    }
                                     {data?.headings?.[1] && (
                                         <h1 className="title">
                                             <span
