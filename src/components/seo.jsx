@@ -77,13 +77,15 @@ const SEO = ({
     };
 
     const getAnalyticsDetails = () => {
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
+        if (window) {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-        gtag("config", "G-6XZLDTDWSQ");
+            gtag("config", "G-6XZLDTDWSQ");
+        }
     };
 
     return (
