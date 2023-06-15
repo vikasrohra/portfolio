@@ -76,6 +76,16 @@ const SEO = ({
         "@graph": [...basSchema],
     };
 
+    const getAnalyticsDetails = () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-6XZLDTDWSQ");
+    };
+
     return (
         <Helmet
             htmlAttributes={{
@@ -119,6 +129,12 @@ const SEO = ({
             <script type="application/ld+json">
                 {JSON.stringify(schemaOrgWebPage)}
             </script>
+            <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=G-6XZLDTDWSQ"
+            ></script>
+
+            <script>{getAnalyticsDetails()}</script>
         </Helmet>
     );
 };
