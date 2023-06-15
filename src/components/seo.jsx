@@ -77,7 +77,7 @@ const SEO = ({
     };
 
     const getAnalyticsDetails = () => {
-        if (window) {
+        if (typeof window !== `undefined`) {
             window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
