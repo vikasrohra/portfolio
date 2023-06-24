@@ -88,7 +88,7 @@ const HeroArea = ({ data, id }) => {
                                                 className="subtitle"
                                                 style={{ marginBottom: "5px" }}
                                             >
-                                                Special event in,
+                                                Special life event in,
                                             </span>
                                             <span
                                                 // className="subtitle"

@@ -12,10 +12,10 @@
                     "content": "<span>Vikas Rohra</span>"
                 }
             ],
-            "animated_texts": ["Web Developer", "Professional Coder"],
+            "animated_texts": ["Software Engineer", "Professional Coder"],
             "texts": [
                 {
-                    "content": "Hi I am Vikas Rohra, a Web developer living in Mumbai, India, having 7+ years of professional experience into web development. I am always excited to connect with like minded people. Have a look at my skills or you can get in touch with me on any social media platform."
+                    "content": "Hi I am Vikas Rohra, a Software Engineer living in Mumbai, India, have 7+ years of professional experience into software development. I am always excited to connect with like minded people. Have a look at my skills and feel free to connect with me."
                 }
             ],
             "skills": [
@@ -39,7 +39,7 @@
                     "id": 3,
                     "title": "developer",
                     "image": {
-                        "src": "../images/icons/icons-16.png",
+                        "src": "../images/icons/nodejs.png",
                         "alt": "Skill Icon"
                     }
                 }
@@ -138,7 +138,7 @@
             "section": "resume-section",
             "section_title": {
                 "title": "Skills",
-                "subtitle": "6+ Years of Experience"
+                "subtitle": "7+ Years of Experience"
             }
         },
         {
@@ -211,7 +211,7 @@
         {
             "id": "default-home-skill",
             "section": "skill-section",
-            "title": "technical Skills",
+            "title": "Front-End",
             "inner": [
                 {
                     "id": "default-home-skill-left",
@@ -222,22 +222,17 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "React JS",
-                            "value": 90
+                            "title": "JavaScript",
+                            "value": 70
                         },
                         {
                             "id": 2,
-                            "title": "JavaScript",
+                            "title": "React JS",
                             "value": 80
                         },
                         {
                             "id": 3,
-                            "title": "React Native",
-                            "value": 20
-                        },
-                        {
-                            "id": 4,
-                            "title": "HTML/CSS",
+                            "title": "Tailwind CSS",
                             "value": 90
                         }
                     ]
@@ -251,23 +246,18 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "Asp.Net MVC",
-                            "value": 60
+                            "title": "Bootstrap",
+                            "value": 90
                         },
                         {
                             "id": 2,
-                            "title": "SQL",
-                            "value": 50
+                            "title": "Material UI",
+                            "value": 90
                         },
                         {
                             "id": 3,
-                            "title": "Asp.Net Web Forms",
-                            "value": 40
-                        },
-                        {
-                            "id": 4,
-                            "title": "Node JS",
-                            "value": 20
+                            "title": "HTML & CSS",
+                            "value": 90
                         }
                     ]
                 }
@@ -276,7 +266,7 @@
         {
             "id": "default-home-skill-soft",
             "section": "skill-section-soft",
-            "title": "soft Skills",
+            "title": "Back-End",
             "inner": [
                 {
                     "id": "default-home-skill-left",
@@ -287,23 +277,13 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "Communication",
-                            "value": 85
+                            "title": "Node JS",
+                            "value": 50
                         },
                         {
                             "id": 2,
-                            "title": "Team Work",
-                            "value": 80
-                        },
-                        {
-                            "id": 3,
-                            "title": "Patience",
-                            "value": 80
-                        },
-                        {
-                            "id": 4,
-                            "title": "Problem Solving",
-                            "value": 75
+                            "title": "Express JS",
+                            "value": 50
                         }
                     ]
                 },
@@ -316,23 +296,13 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "Time Management",
-                            "value": 75
+                            "title": "Mongo DB",
+                            "value": 20
                         },
                         {
                             "id": 2,
-                            "title": "Creativity",
-                            "value": 80
-                        },
-                        {
-                            "id": 3,
-                            "title": "Collaboration",
-                            "value": 65
-                        },
-                        {
-                            "id": 4,
-                            "title": "Confidence",
-                            "value": 95
+                            "title": "SQL",
+                            "value": 50
                         }
                     ]
                 }
@@ -532,7 +502,7 @@
             "section": "client-section",
             "section_title": {
                 "title": "Awesome Projects",
-                "subtitle": "Open Source Projects - Developed from scratch"
+                "subtitle": "Open Source Projects - Find them on GitHub"
             },
             "inner": [
                 {
@@ -752,6 +722,11 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "id": "clinet-nodejs",
+                    "inner_title": "Node JS",
+                    "items": []
                 }
             ]
         },
@@ -1012,12 +987,12 @@
                     "content": "Vikas Rohra"
                 },
                 {
-                    "content": "Software Web Developer"
+                    "content": "Software Engineer"
                 }
             ],
             "texts": [
                 {
-                    "content": "I am available for freelance work."
+                    "content": "Feel free to connect with me."
                 }
             ]
         }
