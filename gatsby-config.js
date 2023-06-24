@@ -10,7 +10,7 @@ module.exports = {
         titleTemplate: "VR",
         twitterUsername: "@vik_roh",
         getform_url:
-            "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
+            "https://getform.io/f/714c50c6-22b3-4aa3-988c-a9f9aab24639",
         socials: [
             {
                 id: 1,
