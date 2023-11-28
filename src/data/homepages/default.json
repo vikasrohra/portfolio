@@ -536,26 +536,6 @@
                     "inner_title": "Tailwind CSS",
                     "items": [
                         {
-                            "id": 1,
-                            "title": "Paytm Clone",
-                            "path": "https://paytm-clone-vk.netlify.app/~https://github.com/vikasrohra/paytm-clone",
-                            "images": [
-                                {
-                                    "src": "../images/client/png/paytm-clone.png"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "title": "Shopify Clone",
-                            "path": "https://shopify-clone-vk.netlify.app/~https://github.com/vikasrohra/shopify-clone",
-                            "images": [
-                                {
-                                    "src": "../images/client/png/shopify.png"
-                                }
-                            ]
-                        },
-                        {
                             "id": 3,
                             "title": "Rode Clone",
                             "path": "https://rode-dot-com.netlify.app/~https://github.com/vikasrohra/rode-dot-com-clone",
